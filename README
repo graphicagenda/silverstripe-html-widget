@@ -1,0 +1,35 @@
+###############################################
+Silverstripe 2.4.4 HTMLText Widget Fix
+For SS - 2.4.4+
+###############################################
+
+01-09-2011
+This file is a patch for Sapphire. It fixes the cms,
+for you to save any text inside the HTML Content Widget 
+
+
+Maintainer Contact
+-----------------------------------------------
+Greg Kerstin <hello (at) graphicagenda (dot) com>
+
+
+Requirements
+-----------------------------------------------
+HTML Content Widget [v1.0.0]
+
+
+Related
+-----------------------------------------------
+http://www.silverstripe.org/widgets-2/show/6510#post261255
+
+Fixes
+-----------------------------------------------
+
+
+Known issues
+-----------------------------------------------
+You have to SAVE THE PAGE every time you move the widget with the drag capability. (Otherwise the js DOM stuff seems to get confused and you get the same errors that you used to get before)   --Artyom
+
+ 
+To Do
+-----------------------------------------------
